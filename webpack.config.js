@@ -8,26 +8,26 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.s[ac]ss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/,
-        use: ['file-loader'],
-      },
-      {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: ['file-loader'],
-      },
-      {
-        test: /\.(csv|tsv)$/,
-        use: ['csv-loader'],
-      },
-      {
-        test: /\.xml$/,
-        use: ['xml-loader'],
-      },
+      // {
+      //   test: /\.s[ac]ss$/,
+      //   use: ['style-loader', 'css-loader', 'sass-loader'],
+      // },
+      // {
+      //   test: /\.(png|jpe?g|gif|svg)$/,
+      //   use: ['file-loader'],
+      // },
+      // {
+      //   test: /\.(woff|woff2|eot|ttf|otf)$/,
+      //   use: ['file-loader'],
+      // },
+      // {
+      //   test: /\.(csv|tsv)$/,
+      //   use: ['csv-loader'],
+      // },
+      // {
+      //   test: /\.xml$/,
+      //   use: ['xml-loader'],
+      // },
     ],
   },
 };
