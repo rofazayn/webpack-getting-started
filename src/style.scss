@@ -2,6 +2,8 @@ body {
   background-color: papayawhip;
 }
 
+$my-color: tomato;
+
 .hello {
-  color: red;
+  color: $my-color;
 }
