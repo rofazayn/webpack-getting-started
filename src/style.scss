@@ -1,9 +1,9 @@
+@import './variables';
+
 body {
   background-color: papayawhip;
 }
 
-$my-color: tomato;
-
 .hello {
-  color: $my-color;
+  color: $color;
 }
